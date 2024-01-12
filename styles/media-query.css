@@ -1,0 +1,24 @@
+/* here i'm defining the ROBOTO as a font family*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* here I'm putting all the css for header main and footer */
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #aabbee;/* I used the https://imagecolorpicker.com/pt-pt to desco the color*/
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
