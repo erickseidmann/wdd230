@@ -1,0 +1,43 @@
+/*so here i want to reset the default styles*/
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/*now i'm going to start to style  the body*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/*here im going to style the container*/
+.card-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*style the header*/
+header{
+    background-color: #1f5f8c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/*now I'm style the img in header aaaaaa*/
+header img{
+    max-width: 200px;
+    border-radius: 10%; /*to control the radius*/
+}
+
+/* header h1  i want to put more space */
+header h1 {
+    padding: 1%;
+    letter-spacing: 2px;
+}
+
