@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     
@@ -34,7 +36,7 @@
             <section class="card-activities" id="card-activities"><!-- init section card-activities-->
 
                 <h3>Information</h3>
-                
+
                 <p>building</p>
 
                 <div id="city"></div><!--div city-->
@@ -43,11 +45,30 @@
 
             </section><!--end section card-activities-->
         </div><!--end of div card-container-->
+
+        <section class="card-information" id="card-information"><!--init section card-information -->
+            
+            <h3>Learning Activities</h3>
+            
+            <ul><!-- int ul card-information-->
+                <li><a href="#">Week 01: </a></li>
+                <li><a href="#">Week 02: </a></li>
+                <li><a href="#">Week 03: </a></li>
+                <li><a href="#">Week 04: </a></li>
+                <li><a href="#">Week 05: </a></li>
+                <li><a href="#">Week 06: </a></li>
+                <li><a href="#">Week 07: </a></li>
+            </ul><!-- end ul card-information-->
+        
+        </section>
     </main><!--the end of the tag main-->   
     
     
     <footer><!-- the start of the tag footer-->
+        <p>&copy; <span id="currentYear"></span> Erick Seidmann </p>
+        <p id="lastModified"></p>
     </footer><!-- the end of the tag footer-->
-     
+
+    <script src="scripts/getDate.js"></script>     
 </body>
 </html>
