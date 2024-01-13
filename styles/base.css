@@ -41,7 +41,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* NAV STYLE */
+/* NAV bar STYLE */
 nav ul {
     list-style: none;
     background-color: #000000;
@@ -63,4 +63,27 @@ nav a {
     text-decoration: none;
     letter-spacing: 2px;
     color: #fff;
+}
+
+/*here working with main*/
+main{
+
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/*here i'm going to work with card-container*/
+.card-container{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
 }
