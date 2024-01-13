@@ -41,3 +41,26 @@ header h1 {
     letter-spacing: 2px;
 }
 
+/* NAV STYLE */
+nav ul {
+    list-style: none;
+    background-color: #000000;
+    
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+/* to style the hover*/
+nav ul li:hover{
+    background-color: rgb(35, 93, 140);
+    cursor: pointer;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+}
