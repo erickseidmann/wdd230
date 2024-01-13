@@ -1,0 +1,70 @@
+@media (min-width: 843px) and (min-height: 200px){
+
+    .card {
+        margin: 0 10px 20px;  
+    }
+
+}
+
+
+@media (min-width: 1209px) and (min-height: 900px) {
+    
+    header {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+    }
+
+ /* NAV bar STYLE */   
+    nav ul {
+        display: flex;  
+        justify-content: center; 
+        list-style: none;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 0 150px; 
+    }
+
+
+    nav ul li:hover{
+        background-color: rgb(35, 93, 140);
+        cursor: pointer;
+    }
+    nav a {
+        padding: none;
+        text-decoration: none;
+        letter-spacing: 4px;
+        color: #fff;
+    }
+
+/*main*/
+    main h2 {
+        font-size: 2rem; 
+        text-align: center; 
+        margin-bottom: 5px; 
+        position: relative;
+    }
+   
+/*card*/
+    .card {
+        max-width: none; /* Remova a limitação máxima de largura */
+        width: 80%; 
+        margin: 0 10px 20px; 
+        flex: 1;          
+    }
+/*footer*/
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    
+}

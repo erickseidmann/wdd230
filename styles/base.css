@@ -14,12 +14,6 @@ body {
     padding: 0;
 }
 
-/*here im going to style the container*/
-.card-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 /*style the header*/
 header{
@@ -83,16 +77,21 @@ main h2 {
 
 /*here i'm going to work with cards */
 .card-container {
+    
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .card.activities {
     order: 1;
+    
 }
 
 .card {   
+    
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -119,4 +118,23 @@ main h2 {
     margin-bottom: 5px;
     text-align: left;
     margin-left: 15px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#currentYear {
+    font-weight: bold;
 }
