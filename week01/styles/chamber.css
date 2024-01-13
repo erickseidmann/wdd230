@@ -1,0 +1,91 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header section */
+header {
+    background-color:#79abe0;
+    color: #fff;
+    text-align: center;
+    padding: 20px ;
+}
+
+/* Style the main content sections */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Highlight the primary color */
+h2 {
+    color: #79abe0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Highlighted text */
+.highlight {
+    color: #79abe0;
+    font-weight: bold;
+}
+
+/* List styles */
+ol, ul {
+    margin-bottom: 15px;
+}
+
+/* Color schema styles */
+.color-swatch {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.primary-color {
+    background-color: #79abe0;
+}
+
+.secondary-color {
+    background-color: #f0f0f0;
+}
+
+.color-label {
+    color: #333;
+}
+
+/* Typography styles */
+.font-example {
+    font-family: 'sans-serif', sans-serif;
+    font-weight: bold;
+}
+
+/* Wireframe image styles */
+.imagem-ajd {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
