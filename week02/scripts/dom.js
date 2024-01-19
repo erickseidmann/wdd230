@@ -10,10 +10,10 @@ button.addEventListener('click', () => {
         return; 
       }
       
-      const newChapter = document.createElement("li");
-      newChapter.textContent = input.value;
+      const li = document.createElement("li");
+      li.textContent = input.value;
     
-      list.appendChild(newChapter);
+      list.appendChild(li);
 
       const chapterTitle = document.createElement("span");
       chapterTitle.textContent = input.value;
@@ -23,14 +23,15 @@ button.addEventListener('click', () => {
     deleteButton.textContent = "❌";
     deleteButton.addEventListener("click", () => {
       // Remove the corresponding list item when the delete button is clicked??
-      list.removeChild(newChapter);
+      list.removeChild(li);
+      input.focus();
     });
 
     // delete button to the new list item
-    newChapter.appendChild(deleteButton);
+    li.appendChild(deleteButton);
 
    
-    list.appendChild(newChapter);
+    list.appendChild(li);
 
     // Clear the input field after adding a chapter
     input.value = "";
